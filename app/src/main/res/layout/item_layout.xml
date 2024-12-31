@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imgBerita"
+            android:src="@drawable/bg_images_item"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNamaWisata"
+            android:layout_toEndOf="@+id/imgBerita"
+            android:layout_marginStart="10dp"
+            android:textSize="24sp"
+            android:text="Nama Lokasi Wisata"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNoTlp"
+            android:layout_toEndOf="@+id/imgBerita"
+            android:layout_below="@+id/tvNamaWisata"
+            android:layout_marginStart="10dp"
+            android:textSize="14sp"
+            android:text="0852-6237-2749"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAlamat"
+            android:layout_toEndOf="@+id/imgBerita"
+            android:layout_below="@+id/tvNoTlp"
+            android:layout_marginStart="10dp"
+            android:textSize="14sp"
+            android:text="Padang, Sumatra Barat"
+            android:layout_marginTop="5dp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
